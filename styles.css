@@ -81,6 +81,7 @@
     border:1px solid black;
     color:black;
     transition: background-color 2s ease, color 2s ease;
+    box-shadow:2px 2px 20px 2px grey;
 }
 
 .img2{
@@ -171,6 +172,7 @@
     border:1px solid grey;
     color:white;
     transition: background-color 2s ease, color 2s ease;
+    box-shadow:2px 2px 20px 2px grey;
 }
 .img9{
     position:absolute;
@@ -192,12 +194,15 @@
     position: absolute;
     width:98%;
     height:750px;
+    margin:0;
+    padding: 0;
 }
 .mtr{
     position:absolute;
     padding-left: 450px;
-    padding-bottom: 500px;
+    padding-bottom:0;
     padding-top: 500px;
+    margin:0;
 }
 .sty {
     width: 250px;
@@ -215,6 +220,7 @@
     border:1px solid grey;
     color:black;
     transition: background-color 2s ease, color 2s ease;
+    box-shadow:2px 2px 20px 2px grey;
 }
 .w{
     padding-left: 170px;
@@ -226,6 +232,7 @@
     width:1480px;
     margin-left:-450px;
     margin-top: 100px;
+    margin-bottom: 0;
     background-color:black;
     color:black;
     align-items: center;
@@ -251,14 +258,31 @@ input{
     height:30px;
     background-color: green;
     border-radius:10px;
+    color: white;
+    margin-right: 10%;
+    height: 50;
+    box-shadow:2px 2px 20px 2px green;
 }
 .but:hover{
     width:400px;
     height:30px;
     background-color: white;
+    color:black;
     border-radius:10px;
     transition: background-color 2s ease, color 2s ease;
+    box-shadow:2px 2px 20px 2px grey;
+    
 }
 body, html{
     margin-bottom: 0;
+}
+.butto{
+    color: white;
+    margin-right: 10%;
+    height: 50;
+    box-shadow:2px 2px 10px 2px #ffffff;
+}
+body, html, footer{
+    margin: 0;
+    padding: 0;
 }
