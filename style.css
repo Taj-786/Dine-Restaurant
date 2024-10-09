@@ -107,5 +107,5 @@ h1{
     border:10x solid grey;
     color:black;
     transition: background-color 2s ease, color 2s ease;
-
+    box-shadow: 1px 5px 10px 10px grey;
 }
